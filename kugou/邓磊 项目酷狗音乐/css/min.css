@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'tttttt';
+  src: url('../fonts/icomoon.eot') format('embedded-opentype'),
+  url('../fonts/icomoon.svg') format('svg'),
+  url('../fonts/icomoon.ttf') format('truetype'),
+  url('../fonts/icomoon.woff') format('woff');
+}
+
+i{
+  font-family: tttttt;
+  font-style: normal;
+  color:#bbb;
+  font-size:16px;
+  font-weight:400;
+}
+

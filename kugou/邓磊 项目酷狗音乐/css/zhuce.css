@@ -1,0 +1,318 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width:100%;
+}
+
+header {
+	margin:0 auto;
+}
+
+header .top{
+	width:960px;
+	height:40px;
+	line-height:40px;
+	margin:0 auto;
+}
+
+header .top a{
+	display:block;
+	float:right;
+	font-size:14px;
+	padding: 0 10px;
+	text-decoration:none;
+	}
+
+header .top >a >img{
+	display:block;
+	width:20px;
+	margin-top:10px;
+}
+
+header .navi{
+	width:960px;
+	height:60px;
+	line-height:60px;
+	background:#337ab7;
+	margin:0 auto;
+}
+
+header .navi .left>a>img{
+	width:170px;
+	height:40px;
+}
+
+header .navi .left ul{
+	list-style:none;
+}
+
+header .navi .left a{
+	text-decoration:none;
+	display:block;
+	padding:0 11px;
+	float:left;
+	color:white;
+	font-size:16px;
+	font-family:微软雅黑;
+	}
+
+header .navi .right div a{
+	display:block;
+	float:right;
+	text-decoration:none;
+	color:white;
+	font-size:16px;
+	font-family:微软雅黑;
+	padding:0 11px;
+} 
+
+section{
+	width:960px;
+	height:626px;
+	box-shadow:-2px -3px 6px 4px #54ade7;
+	border-bottom:2px;
+	margin:0 auto;
+	border-bottom:2px;
+	margin-top:40px;
+	margin-bottom:50px;
+	}
+
+section .first{
+	font-size:24px;
+	width:958px;
+	height:27px;
+	border:6px 1px 0 1px solid #54ade7;
+	margin-top:-10px;
+	padding:28px 0 50px 0;
+	text-align:center;
+}
+
+section .first>div>a{
+	text-decoration:none;
+	color:#337ab7;
+	font-family:微软雅黑;
+}
+
+section .first>div>a>img{
+	margin-right:15px;
+	}
+
+section .second{
+	width:958px;
+	padding:50px;
+	font-size:16px;
+}
+
+section .second .cellphone{
+	padding-bottom:15px;
+	margin-left:200px;
+}
+
+section .second .cellphone input{
+	width:291px;
+	height:38px;
+	padding:7px;
+	border:1px solid #ccc;
+	background:#eee;
+}
+
+section .second .cellphone input:hover{
+	background:#ccddee;
+	opacity:.6;
+	border-color:#00f;
+	}
+
+section .second>.test{
+	padding-bottom:15px;
+	margin-left:200px;
+	}
+
+section .second>.test input{
+	width:136px;
+	height:36px;
+	padding:7px;
+	border:1px solid #ccc;
+	background:#eee;
+	}
+
+section .second .test input:hover{
+	background:#ccddee;
+	opacity:.6;
+	border-color:#00f;
+	}
+
+section .second>.test>button{
+	width:68px;
+	height:36px;
+	padding:0 10px;
+	margin:0 1px 0 1px;
+	border:none;
+	color:white;
+	font-size:12px;
+	background:#bbb;
+	border-radius:4px;
+	vertical-align:top;
+	margin-left:5px;
+}
+
+section .second>.strength{
+	margin-top:10px;
+	overflow:hidden;
+	padding-bottom:15px;
+	margin-left:300px;
+	}
+
+section .second>.strength>div{
+	width:50px;
+	height:12px;
+	background:#ccc;
+	margin:0 3px;
+	float:left;
+}
+
+section .second>.strength>span{
+	display:block;
+	float:left;
+	font-size:12px;
+	color:#bbb;
+	}
+
+section .second>.password{
+	padding-bottom:15px;
+	margin-left:230px;
+}
+
+section .second>.password>input{
+	width:291px;
+	height:38px;
+	padding:7px;
+	border:1px solid #ccc;
+	background:#eee;
+	}
+
+section .second .password>input:hover{
+	background:#ccddee;
+	opacity:.6;
+	border-color:#00f;
+	}
+
+section .second>.sure{
+	padding-bottom:15px;
+	margin-left:200px;
+}
+
+section .second>.sure>input{
+	width:291px;
+	height:38px;
+	padding:7px;
+	border:1px solid #ccc;
+	background:#eee;
+}
+
+section .second .sure input:hover{
+	background:#ccddee;
+	opacity:.6;
+	border-color:#00f;
+	}
+
+section .second>.sex{
+	height:38px;
+	padding-bottom:15px;
+	margin-left:230px;
+	}
+
+section .second>.remember{
+	height:25px;
+	padding-bottom:15px;
+	margin-left:300px;
+}
+
+section .second>.sign{
+	padding-top:15px;
+	}
+
+section .second>.sign>button{
+	display:block;
+	height:40px;
+	font-size:20px;
+	line-height:40px;
+	margin:0 1px;
+	padding:0 25px;
+	background:#ccc;
+	color:#fff;
+	font-family:微软雅黑;
+	border:none;
+	border-radius:4px;
+	margin-left:380px;
+}
+
+section .second>.sign>button:hover{
+	background:#2085e5;
+}
+
+
+footer {
+	width:100%;
+	height:289px;
+	background:rgb(44,50,59);
+	margin:0 auto;
+}
+footer >#wrap{
+	width:1000px;
+	margin:0 auto;
+	background:rgb(44,50,59);
+}
+
+footer >#wrap>#one{
+	padding:15px 0;
+	}
+
+footer >#wrap>#one>ul{
+	list-style:none;
+	width:1000px;
+	height:18px;
+	font-size:12px;
+	font-family:微软雅黑;
+	}
+
+footer >#wrap>#one>ul>li{
+	float:left;
+	height:18px;
+	margin-left:5px;
+	padding:10px 0;
+}
+
+footer >#wrap>#one>ul>li>a{
+	text-decoration:none;
+	border-right:1px solid #b1b3b9;
+	padding:0 10px;
+	display:block;
+	color:#b1b3b9;
+	}
+
+footer >#wrap>#one>ul>li>a:hover{
+	color:#009af3;
+	}
+
+footer >#wrap>#one>ul>li:last-child>a{
+	border-right:none;
+	}
+
+footer >#wrap>#two{
+	width:1000px;
+	height:150px;
+	margin-top:40px;
+	color:#b1b3b9;
+	font-family:微软雅黑;
+	font-size:13px;
+	text-align:center;
+}
+
+footer >#wrap>#two{
+	height:30px;
+	line-height:30px;
+	}
+
